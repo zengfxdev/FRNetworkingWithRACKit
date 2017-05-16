@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - FRLoggerKit (0.0.1):
+    - CocoaLumberjack (~> 3.2.0)
+  - ReactiveObjC (3.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - FRLoggerKit
+  - ReactiveObjC (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  FRLoggerKit: 8f5488fcdc7e80bcc22796ea736c2788f6120dea
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+
+PODFILE CHECKSUM: c689d4f2f9b584746a2ece32a5fecf04cc71c81b
+
+COCOAPODS: 1.2.0
